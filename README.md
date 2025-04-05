@@ -1,7 +1,9 @@
 # pyEUGEN
 Simple python version of EUGEN program, as described by Izgorodina et al. (DOI: 10.1021/cg900656z).
 
-INPUT FILE: See 'input.txt' for example of input file (a single input file is used for all three scripts, see below). First row contains the unit cell axes in Å, second line contains angles alpha, beta, gamma in degrees, third row is a convergence condition (not yet implemented), row 4 to end are atom positions within the unit cell, in the format of 'atom_symbol x y z charge'. A single space should separate all the content in the input file. Example file(s) are for the structures of NaCl and CaF2.
+INPUT FILE: See 'input.txt' for example of input file (a single input file is used for all three scripts, see below). First row contains the unit cell axes in Å, second line contains angles alpha, beta, gamma in degrees, third row is a convergence condition (not yet implemented), row 4 to end are positions of ions within the unit cell, in the format of 'atom_symbol x y z charge'. A single space separates all the content in the input file. Example file(s) are for the structures of NaCl and CaF2.
+
+Calculation of the Madelung constant is done with respect to the first atom in the list. To cycle through all crystallographically unique atoms, simply move the atom in question the top of the ion list and run the script again.
 
 ## Uploaded scripts are three python notebooks:
 
