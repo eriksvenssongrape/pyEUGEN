@@ -3,7 +3,7 @@ Simple python version of EUGEN program, as described by Izgorodina et al. (DOI: 
 
 INPUT FILE: See 'input.txt' for example of input file (a single input file is used for all three scripts, see below). First row contains the unit cell axes in Å, second line contains angles alpha, beta, gamma in degrees, third row is a convergence condition (not yet implemented), row 4 to end are atom positions within the unit cell, in the format of 'atom_symbol x y z charge'. A single space should separate all the content in the input file.
 
-Uploaded scripts are three python notebooks:
+## Uploaded scripts are three python notebooks:
 
 1. 'pyEUGEN_dipole_test.ipynb' - tests input file for dipole moment of unit cell contents. If non-zero (net result > 0.0000 D), use pyEUGENE_Harrison to calculate the Madelung potential of the structure.
 2. 'PyEUGEN.ipynb' - calculates Madelung potential for structure with zero dipole moment, as described by Izgorodina et al.
