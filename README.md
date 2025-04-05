@@ -8,7 +8,9 @@ Calculation of the Madelung constant is done with respect to the first atom in t
 ## Uploaded scripts are three python notebooks:
 
 **1**. 'pyEUGEN_dipole_test.ipynb' - tests input file for dipole moment of unit cell contents. If non-zero (net result > 0.0000 D), use pyEUGENE_Harrison to calculate the Madelung potential of the structure.
+
 **2**. 'PyEUGEN.ipynb' - calculates Madelung potential for structure with zero dipole moment, as described by Izgorodina et al.
+
 **3**. 'pyEUGEN_Harrison' - calculation of Madelung potential for structures with non-zero dipole moment of the unit cell contents. Uses an expanding sphere of radius 'r' with dummy atom at 'r' with equal but opposite charge as sphere used for Madelung potential calculation. Procedure as described by Izgorodina et al., as originally described by Harrison (DOI: 10.1103/PhysRevB.73.212103).
 
 The input file need to be specified in each notebook. Additionally, the expansion cycles need to be changed as necessary for **2** and **3**. Typically 20 - 40 cycles is needed for **3**, whereas **2** converges quicker (10-20).
