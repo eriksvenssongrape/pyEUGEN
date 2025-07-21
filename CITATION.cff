@@ -1,0 +1,8 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- Erik Svensson Grape
+orcid: https://orcid.org/0000-0002-8956-5897
+title:eriksvenssongrape/pyEUGENE: v1.0.0
+version: pyeugene_v1.0.0a
+date-released: 2025-07-21
