@@ -7,7 +7,7 @@ Calculation of the Madelung constant is done with respect to the first atom in t
 
 ## Uploaded scripts are three python notebooks:
 
-**1**. 'pyEUGENE_dipole_test.ipynb' - tests input file for dipole moment of unit cell contents. If non-zero (net result > 0.0000 D), use pyEUGEN_Harrison to calculate the Madelung potential of the structure, rather than pyEUGEN.
+**1**. 'pyEUGENE_dipole_test.ipynb' - tests input file for dipole moment of unit cell contents. If non-zero (net result > 0.0000 D), use pyEUGENE_Harrison to calculate the Madelung potential of the structure, rather than pyEUGENE.
 
 **2**. 'PyEUGENE.ipynb' - calculates Madelung constant for structure with zero dipole moment, as described by Izgorodina et al.
 
