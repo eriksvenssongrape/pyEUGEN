@@ -1,5 +1,5 @@
-# pyEUGEN
-Simple python version of the EUGEN program, as described by Izgorodina et al. (DOI: 10.1021/cg900656z).
+# pyEUGENE
+Modified python version of the EUGEN program, as described by Izgorodina et al. (DOI: 10.1021/cg900656z).
 
 INPUT FILE: See 'input.txt' for example of input file (a single input file is used for all three scripts, see below). First row contains the unit cell axes in Å, second line contains angles alpha, beta, gamma in degrees, third row is a convergence condition (not yet implemented), row 4 to end are positions of ions within the unit cell, in the format of 'atom_symbol x y z charge'. A single space separates all the content in the input file. Example file(s) are for the structures of NaCl and CaF2.
 
